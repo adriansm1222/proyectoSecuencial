@@ -1,0 +1,3 @@
+D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/CMakeFiles/Proyecto2.dir
+D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
