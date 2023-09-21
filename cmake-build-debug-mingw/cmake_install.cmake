@@ -1,4 +1,4 @@
-# Install script for directory: D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2
+# Install script for directory: D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2" -B "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw"
+"C:\Program Files\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial" -B "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw"
 -- The C compiler identification is GNU 13.1.0
 -- The CXX compiler identification is GNU 13.1.0
 -- Detecting C compiler ABI info
@@ -11,6 +11,6 @@
 -- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2023.2/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (3.6s)
+-- Configuring done (2.3s)
 -- Generating done (0.0s)
--- Build files have been written to: D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw
+-- Build files have been written to: D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw

@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw",
-		"source" : "D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2"
+		"build" : "D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw",
+		"source" : "D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial"
 	},
 	"version" : 
 	{

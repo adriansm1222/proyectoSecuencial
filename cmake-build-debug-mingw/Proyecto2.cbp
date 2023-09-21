@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw"/>
+				<Option working_dir="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto2">
-				<Option output="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Proyecto2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw"/>
+				<Option output="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Proyecto2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Proyecto2"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Proyecto2"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto2/fast">
-				<Option output="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Proyecto2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw"/>
+				<Option output="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Proyecto2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,91 +55,91 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Proyecto2/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Proyecto2/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw"/>
+				<Option working_dir="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw"/>
+				<Option working_dir="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/ContenedoraListas.cpp">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/ContenedoraListas.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/ContenedoraListas.h">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/ContenedoraListas.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/Enfermedad.cpp">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/Enfermedad.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/Enfermedad.h">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/Enfermedad.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/Iterador.cpp">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/Iterador.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/Iterador.h">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/Iterador.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/IteradorLista.cpp">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/IteradorLista.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/IteradorLista.h">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/IteradorLista.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/Lista.cpp">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/Lista.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/Lista.h">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/Lista.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/MenuAnalisis.cpp">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/MenuAnalisis.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/MenuAnalisis.h">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/MenuAnalisis.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/Nodo.cpp">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/Nodo.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/Nodo.h">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/Nodo.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/Paciente.cpp">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/Paciente.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/Paciente.h">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/Paciente.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/dist/json/json.h">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/dist/json/json.h">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/dist/jsoncpp.cpp">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/dist/jsoncpp.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/main.cpp">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/main.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
-		<Unit filename="D:/Adrian-U/Ciclo II 2023/Paralela/Proyecto2/CMakeLists.txt">
+		<Unit filename="D:/Proyectos/Progra 2 Proyectos/Proyecto2Secuencial/proyectoSecuencial/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

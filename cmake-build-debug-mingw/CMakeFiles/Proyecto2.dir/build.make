@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2"
+CMAKE_SOURCE_DIR = "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw"
+CMAKE_BINARY_DIR = "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proyecto2.dir/depend.make
@@ -69,144 +69,144 @@ include CMakeFiles/Proyecto2.dir/progress.make
 include CMakeFiles/Proyecto2.dir/flags.make
 
 CMakeFiles/Proyecto2.dir/main.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/main.cpp.obj: D:/Adrian-U/Ciclo\ II\ 2023/Paralela/Proyecto2/main.cpp
+CMakeFiles/Proyecto2.dir/main.cpp.obj: D:/Proyectos/Progra\ 2\ Proyectos/Proyecto2Secuencial/proyectoSecuencial/main.cpp
 CMakeFiles/Proyecto2.dir/main.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto2.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/main.cpp.obj -MF CMakeFiles\Proyecto2.dir\main.cpp.obj.d -o CMakeFiles\Proyecto2.dir\main.cpp.obj -c "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto2.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/main.cpp.obj -MF CMakeFiles\Proyecto2.dir\main.cpp.obj.d -o CMakeFiles\Proyecto2.dir\main.cpp.obj -c "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\main.cpp"
 
 CMakeFiles/Proyecto2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\main.cpp" > CMakeFiles\Proyecto2.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\main.cpp" > CMakeFiles\Proyecto2.dir\main.cpp.i
 
 CMakeFiles/Proyecto2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\main.cpp" -o CMakeFiles\Proyecto2.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\main.cpp" -o CMakeFiles\Proyecto2.dir\main.cpp.s
 
 CMakeFiles/Proyecto2.dir/Paciente.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Paciente.cpp.obj: D:/Adrian-U/Ciclo\ II\ 2023/Paralela/Proyecto2/Paciente.cpp
+CMakeFiles/Proyecto2.dir/Paciente.cpp.obj: D:/Proyectos/Progra\ 2\ Proyectos/Proyecto2Secuencial/proyectoSecuencial/Paciente.cpp
 CMakeFiles/Proyecto2.dir/Paciente.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto2.dir/Paciente.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Paciente.cpp.obj -MF CMakeFiles\Proyecto2.dir\Paciente.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Paciente.cpp.obj -c "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Paciente.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto2.dir/Paciente.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Paciente.cpp.obj -MF CMakeFiles\Proyecto2.dir\Paciente.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Paciente.cpp.obj -c "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Paciente.cpp"
 
 CMakeFiles/Proyecto2.dir/Paciente.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Paciente.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Paciente.cpp" > CMakeFiles\Proyecto2.dir\Paciente.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Paciente.cpp" > CMakeFiles\Proyecto2.dir\Paciente.cpp.i
 
 CMakeFiles/Proyecto2.dir/Paciente.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Paciente.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Paciente.cpp" -o CMakeFiles\Proyecto2.dir\Paciente.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Paciente.cpp" -o CMakeFiles\Proyecto2.dir\Paciente.cpp.s
 
 CMakeFiles/Proyecto2.dir/Enfermedad.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Enfermedad.cpp.obj: D:/Adrian-U/Ciclo\ II\ 2023/Paralela/Proyecto2/Enfermedad.cpp
+CMakeFiles/Proyecto2.dir/Enfermedad.cpp.obj: D:/Proyectos/Progra\ 2\ Proyectos/Proyecto2Secuencial/proyectoSecuencial/Enfermedad.cpp
 CMakeFiles/Proyecto2.dir/Enfermedad.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto2.dir/Enfermedad.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Enfermedad.cpp.obj -MF CMakeFiles\Proyecto2.dir\Enfermedad.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Enfermedad.cpp.obj -c "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Enfermedad.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto2.dir/Enfermedad.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Enfermedad.cpp.obj -MF CMakeFiles\Proyecto2.dir\Enfermedad.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Enfermedad.cpp.obj -c "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Enfermedad.cpp"
 
 CMakeFiles/Proyecto2.dir/Enfermedad.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Enfermedad.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Enfermedad.cpp" > CMakeFiles\Proyecto2.dir\Enfermedad.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Enfermedad.cpp" > CMakeFiles\Proyecto2.dir\Enfermedad.cpp.i
 
 CMakeFiles/Proyecto2.dir/Enfermedad.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Enfermedad.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Enfermedad.cpp" -o CMakeFiles\Proyecto2.dir\Enfermedad.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Enfermedad.cpp" -o CMakeFiles\Proyecto2.dir\Enfermedad.cpp.s
 
 CMakeFiles/Proyecto2.dir/Lista.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Lista.cpp.obj: D:/Adrian-U/Ciclo\ II\ 2023/Paralela/Proyecto2/Lista.cpp
+CMakeFiles/Proyecto2.dir/Lista.cpp.obj: D:/Proyectos/Progra\ 2\ Proyectos/Proyecto2Secuencial/proyectoSecuencial/Lista.cpp
 CMakeFiles/Proyecto2.dir/Lista.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto2.dir/Lista.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Lista.cpp.obj -MF CMakeFiles\Proyecto2.dir\Lista.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Lista.cpp.obj -c "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Lista.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto2.dir/Lista.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Lista.cpp.obj -MF CMakeFiles\Proyecto2.dir\Lista.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Lista.cpp.obj -c "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Lista.cpp"
 
 CMakeFiles/Proyecto2.dir/Lista.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Lista.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Lista.cpp" > CMakeFiles\Proyecto2.dir\Lista.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Lista.cpp" > CMakeFiles\Proyecto2.dir\Lista.cpp.i
 
 CMakeFiles/Proyecto2.dir/Lista.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Lista.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Lista.cpp" -o CMakeFiles\Proyecto2.dir\Lista.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Lista.cpp" -o CMakeFiles\Proyecto2.dir\Lista.cpp.s
 
 CMakeFiles/Proyecto2.dir/Nodo.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Nodo.cpp.obj: D:/Adrian-U/Ciclo\ II\ 2023/Paralela/Proyecto2/Nodo.cpp
+CMakeFiles/Proyecto2.dir/Nodo.cpp.obj: D:/Proyectos/Progra\ 2\ Proyectos/Proyecto2Secuencial/proyectoSecuencial/Nodo.cpp
 CMakeFiles/Proyecto2.dir/Nodo.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto2.dir/Nodo.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Nodo.cpp.obj -MF CMakeFiles\Proyecto2.dir\Nodo.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Nodo.cpp.obj -c "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Nodo.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto2.dir/Nodo.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Nodo.cpp.obj -MF CMakeFiles\Proyecto2.dir\Nodo.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Nodo.cpp.obj -c "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Nodo.cpp"
 
 CMakeFiles/Proyecto2.dir/Nodo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Nodo.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Nodo.cpp" > CMakeFiles\Proyecto2.dir\Nodo.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Nodo.cpp" > CMakeFiles\Proyecto2.dir\Nodo.cpp.i
 
 CMakeFiles/Proyecto2.dir/Nodo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Nodo.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Nodo.cpp" -o CMakeFiles\Proyecto2.dir\Nodo.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Nodo.cpp" -o CMakeFiles\Proyecto2.dir\Nodo.cpp.s
 
 CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.obj: D:/Adrian-U/Ciclo\ II\ 2023/Paralela/Proyecto2/dist/jsoncpp.cpp
+CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.obj: D:/Proyectos/Progra\ 2\ Proyectos/Proyecto2Secuencial/proyectoSecuencial/dist/jsoncpp.cpp
 CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.obj -MF CMakeFiles\Proyecto2.dir\dist\jsoncpp.cpp.obj.d -o CMakeFiles\Proyecto2.dir\dist\jsoncpp.cpp.obj -c "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\dist\jsoncpp.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.obj -MF CMakeFiles\Proyecto2.dir\dist\jsoncpp.cpp.obj.d -o CMakeFiles\Proyecto2.dir\dist\jsoncpp.cpp.obj -c "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\dist\jsoncpp.cpp"
 
 CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\dist\jsoncpp.cpp" > CMakeFiles\Proyecto2.dir\dist\jsoncpp.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\dist\jsoncpp.cpp" > CMakeFiles\Proyecto2.dir\dist\jsoncpp.cpp.i
 
 CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\dist\jsoncpp.cpp" -o CMakeFiles\Proyecto2.dir\dist\jsoncpp.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\dist\jsoncpp.cpp" -o CMakeFiles\Proyecto2.dir\dist\jsoncpp.cpp.s
 
 CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.obj: D:/Adrian-U/Ciclo\ II\ 2023/Paralela/Proyecto2/ContenedoraListas.cpp
+CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.obj: D:/Proyectos/Progra\ 2\ Proyectos/Proyecto2Secuencial/proyectoSecuencial/ContenedoraListas.cpp
 CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.obj -MF CMakeFiles\Proyecto2.dir\ContenedoraListas.cpp.obj.d -o CMakeFiles\Proyecto2.dir\ContenedoraListas.cpp.obj -c "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\ContenedoraListas.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.obj -MF CMakeFiles\Proyecto2.dir\ContenedoraListas.cpp.obj.d -o CMakeFiles\Proyecto2.dir\ContenedoraListas.cpp.obj -c "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\ContenedoraListas.cpp"
 
 CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\ContenedoraListas.cpp" > CMakeFiles\Proyecto2.dir\ContenedoraListas.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\ContenedoraListas.cpp" > CMakeFiles\Proyecto2.dir\ContenedoraListas.cpp.i
 
 CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\ContenedoraListas.cpp" -o CMakeFiles\Proyecto2.dir\ContenedoraListas.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\ContenedoraListas.cpp" -o CMakeFiles\Proyecto2.dir\ContenedoraListas.cpp.s
 
 CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.obj: D:/Adrian-U/Ciclo\ II\ 2023/Paralela/Proyecto2/MenuAnalisis.cpp
+CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.obj: D:/Proyectos/Progra\ 2\ Proyectos/Proyecto2Secuencial/proyectoSecuencial/MenuAnalisis.cpp
 CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.obj -MF CMakeFiles\Proyecto2.dir\MenuAnalisis.cpp.obj.d -o CMakeFiles\Proyecto2.dir\MenuAnalisis.cpp.obj -c "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\MenuAnalisis.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.obj -MF CMakeFiles\Proyecto2.dir\MenuAnalisis.cpp.obj.d -o CMakeFiles\Proyecto2.dir\MenuAnalisis.cpp.obj -c "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\MenuAnalisis.cpp"
 
 CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\MenuAnalisis.cpp" > CMakeFiles\Proyecto2.dir\MenuAnalisis.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\MenuAnalisis.cpp" > CMakeFiles\Proyecto2.dir\MenuAnalisis.cpp.i
 
 CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\MenuAnalisis.cpp" -o CMakeFiles\Proyecto2.dir\MenuAnalisis.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\MenuAnalisis.cpp" -o CMakeFiles\Proyecto2.dir\MenuAnalisis.cpp.s
 
 CMakeFiles/Proyecto2.dir/Iterador.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Iterador.cpp.obj: D:/Adrian-U/Ciclo\ II\ 2023/Paralela/Proyecto2/Iterador.cpp
+CMakeFiles/Proyecto2.dir/Iterador.cpp.obj: D:/Proyectos/Progra\ 2\ Proyectos/Proyecto2Secuencial/proyectoSecuencial/Iterador.cpp
 CMakeFiles/Proyecto2.dir/Iterador.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto2.dir/Iterador.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Iterador.cpp.obj -MF CMakeFiles\Proyecto2.dir\Iterador.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Iterador.cpp.obj -c "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Iterador.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto2.dir/Iterador.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Iterador.cpp.obj -MF CMakeFiles\Proyecto2.dir\Iterador.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Iterador.cpp.obj -c "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Iterador.cpp"
 
 CMakeFiles/Proyecto2.dir/Iterador.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Iterador.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Iterador.cpp" > CMakeFiles\Proyecto2.dir\Iterador.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Iterador.cpp" > CMakeFiles\Proyecto2.dir\Iterador.cpp.i
 
 CMakeFiles/Proyecto2.dir/Iterador.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Iterador.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\Iterador.cpp" -o CMakeFiles\Proyecto2.dir\Iterador.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\Iterador.cpp" -o CMakeFiles\Proyecto2.dir\Iterador.cpp.s
 
 CMakeFiles/Proyecto2.dir/IteradorLista.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/IteradorLista.cpp.obj: D:/Adrian-U/Ciclo\ II\ 2023/Paralela/Proyecto2/IteradorLista.cpp
+CMakeFiles/Proyecto2.dir/IteradorLista.cpp.obj: D:/Proyectos/Progra\ 2\ Proyectos/Proyecto2Secuencial/proyectoSecuencial/IteradorLista.cpp
 CMakeFiles/Proyecto2.dir/IteradorLista.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proyecto2.dir/IteradorLista.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/IteradorLista.cpp.obj -MF CMakeFiles\Proyecto2.dir\IteradorLista.cpp.obj.d -o CMakeFiles\Proyecto2.dir\IteradorLista.cpp.obj -c "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\IteradorLista.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proyecto2.dir/IteradorLista.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/IteradorLista.cpp.obj -MF CMakeFiles\Proyecto2.dir\IteradorLista.cpp.obj.d -o CMakeFiles\Proyecto2.dir\IteradorLista.cpp.obj -c "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\IteradorLista.cpp"
 
 CMakeFiles/Proyecto2.dir/IteradorLista.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/IteradorLista.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\IteradorLista.cpp" > CMakeFiles\Proyecto2.dir\IteradorLista.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\IteradorLista.cpp" > CMakeFiles\Proyecto2.dir\IteradorLista.cpp.i
 
 CMakeFiles/Proyecto2.dir/IteradorLista.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/IteradorLista.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\IteradorLista.cpp" -o CMakeFiles\Proyecto2.dir\IteradorLista.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\IteradorLista.cpp" -o CMakeFiles\Proyecto2.dir\IteradorLista.cpp.s
 
 # Object files for target Proyecto2
 Proyecto2_OBJECTS = \
@@ -238,7 +238,7 @@ Proyecto2.exe: CMakeFiles/Proyecto2.dir/build.make
 Proyecto2.exe: CMakeFiles/Proyecto2.dir/linkLibs.rsp
 Proyecto2.exe: CMakeFiles/Proyecto2.dir/objects1.rsp
 Proyecto2.exe: CMakeFiles/Proyecto2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Proyecto2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Proyecto2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Proyecto2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -250,6 +250,6 @@ CMakeFiles/Proyecto2.dir/clean:
 .PHONY : CMakeFiles/Proyecto2.dir/clean
 
 CMakeFiles/Proyecto2.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2" "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2" "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw" "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw" "D:\Adrian-U\Ciclo II 2023\Paralela\Proyecto2\cmake-build-debug-mingw\CMakeFiles\Proyecto2.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial" "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial" "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw" "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw" "D:\Proyectos\Progra 2 Proyectos\Proyecto2Secuencial\proyectoSecuencial\cmake-build-debug-mingw\CMakeFiles\Proyecto2.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto2.dir/depend
 
