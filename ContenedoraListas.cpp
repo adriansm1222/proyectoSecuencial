@@ -14,24 +14,31 @@ ContenedoraListas::~ContenedoraListas() {
     delete lEnfermedades;
 }
 
-string ContenedoraListas::analisis1() {
-    if (getLPacientes()->listaVacia() && getLEnfermedades()->listaVacia()) throw 1;
-    stringstream s;
-    IteradorLista<Paciente> *itP=getLPacientes()->getIterador();
-    IteradorLista<Enfermedad> *itE=getLEnfermedades()->getIterador();
-    while(itP->vacia()){
+void ContenedoraListas::analisis1() {
+    if (getLEnfermedades()->listaVacia()) throw 1;
+    IteradorLista<Paciente> *itP = getLPacientes()->getIterador();
+    IteradorLista<Enfermedad> *itE = getLEnfermedades()->getIterador();
+    while (itP->vacia()) {
         itE->volverInicio(getLEnfermedades()->primerNodo());
-        Paciente *tempP=itP->proximo();
-        s<<"Paciente: "<<endl;
-        s<<tempP->toString();
-        s<<"Enfermedades detectadas: "<<endl;
-        while(itE->vacia()){
-            Enfermedad *tempE=itE->proximo();
-            s<<busquedaEnfermedad(tempP, tempE);
+        Paciente *tempP = itP->proximo();
+        vector<Enfermedad> *vEnfermedades = new vector<Enfermedad>;
+        while (itE->vacia()) {
+            Enfermedad *tempE = itE->proximo();
+            if(nombreEnfermedad(tempP,tempE)){
+                vEnfermedades->push_back(*tempE);
+            }
         }
-        s<<"-------------------------------------------------------------------------"<<endl;
+        tempP->setLEnfermedades(vEnfermedades);
     }
-    return s.str();
+}
+
+void ContenedoraListas::imprimirAnalisis1(string tiempo){
+    stringstream s;
+    s << getLPacientes()->toStringAnalisis1();
+    s<<tiempo;
+    ofstream archivo("analisis1.txt", std::ios::trunc);
+    archivo << s.str();
+    archivo.close();
 }
 
 string ContenedoraListas::analisis2() {

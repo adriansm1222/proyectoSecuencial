@@ -23,7 +23,7 @@ private:
 public:
     ContenedoraListas(Lista<Enfermedad> *lEnfermedades=new Lista<Enfermedad>, Lista<Paciente> *lPacientes=new Lista<Paciente>);
     virtual ~ContenedoraListas();
-    string analisis1();
+    void analisis1();
     string analisis2();
     string analisis3();
     string busquedaEnfermedad(Paciente *p, Enfermedad *e);
@@ -33,6 +33,7 @@ public:
     void cargaDatos();
     void generarReporte();
     bool nombreEnfermedad(Paciente *p, Enfermedad *e);
+    void imprimirAnalisis1(string tiempo);
 };
 
 

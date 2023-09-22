@@ -9,6 +9,7 @@ Paciente::Paciente(string nombre, string id, string adn, int enfermedades) {
     this->id=id;
     this->cadADN=adn;
     this->enfermedades=enfermedades;
+    this->lEnfermedades = nullptr;
 }
 
 const string &Paciente::getNombre() const {
@@ -49,4 +50,12 @@ int Paciente::getEnfermedades() const {
 
 void Paciente::setEnfermedades(int enfermedades) {
     Paciente::enfermedades = enfermedades;
+}
+
+vector<Enfermedad> *Paciente::getLEnfermedades() const {
+    return lEnfermedades;
+}
+
+void Paciente::setLEnfermedades(vector<Enfermedad> *lEnfermedades) {
+    Paciente::lEnfermedades = lEnfermedades;
 }

@@ -67,6 +67,23 @@ public:
         return s.str();
     }
 
+    string toStringAnalisis1(){
+        stringstream s;
+        IteradorLista<Paciente> *itP=this->getIterador();
+        while(itP->vacia()){
+            Paciente *tempP=itP->proximo();
+            s<<"Paciente: "<<endl;
+            s<<tempP->toString();
+            s<<"Enfermedades detectadas: "<<endl;
+            for(int i = 0; i<tempP->getLEnfermedades()->size();i++){
+                Enfermedad tempE = tempP->getLEnfermedades()->at(i);
+                s<<"Enfermedad "<<tempE.getNombre()<<" detectada"<<endl;
+            }
+            s<<"-------------------------------------------------------------------------"<<endl;
+        }
+        return s.str();
+    }
+
     void ingresar(Paciente *dato) {
         Nodo<Paciente> *nodoNuevo = new Nodo<Paciente>;
         nodoNuevo->setDato(dato);

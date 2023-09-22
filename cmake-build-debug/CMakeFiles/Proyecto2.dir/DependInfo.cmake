@@ -4,33 +4,24 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Proyectos/Progra 2 Proyectos/Proyecto2/ContenedoraListas.cpp" "D:/Proyectos/Progra 2 Proyectos/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.obj"
-  "D:/Proyectos/Progra 2 Proyectos/Proyecto2/Enfermedad.cpp" "D:/Proyectos/Progra 2 Proyectos/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Enfermedad.cpp.obj"
-  "D:/Proyectos/Progra 2 Proyectos/Proyecto2/Iterador.cpp" "D:/Proyectos/Progra 2 Proyectos/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Iterador.cpp.obj"
-  "D:/Proyectos/Progra 2 Proyectos/Proyecto2/IteradorLista.cpp" "D:/Proyectos/Progra 2 Proyectos/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/IteradorLista.cpp.obj"
-  "D:/Proyectos/Progra 2 Proyectos/Proyecto2/Lista.cpp" "D:/Proyectos/Progra 2 Proyectos/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Lista.cpp.obj"
-  "D:/Proyectos/Progra 2 Proyectos/Proyecto2/MenuAnalisis.cpp" "D:/Proyectos/Progra 2 Proyectos/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.obj"
-  "D:/Proyectos/Progra 2 Proyectos/Proyecto2/Nodo.cpp" "D:/Proyectos/Progra 2 Proyectos/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Nodo.cpp.obj"
-  "D:/Proyectos/Progra 2 Proyectos/Proyecto2/Paciente.cpp" "D:/Proyectos/Progra 2 Proyectos/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/Paciente.cpp.obj"
-  "D:/Proyectos/Progra 2 Proyectos/Proyecto2/dist/jsoncpp.cpp" "D:/Proyectos/Progra 2 Proyectos/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.obj"
-  "D:/Proyectos/Progra 2 Proyectos/Proyecto2/main.cpp" "D:/Proyectos/Progra 2 Proyectos/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2.dir/main.cpp.obj"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/danid/OneDrive/Documentos/GitHub/proyectoSecuencial/ContenedoraListas.cpp" "CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.obj" "gcc" "CMakeFiles/Proyecto2.dir/ContenedoraListas.cpp.obj.d"
+  "C:/Users/danid/OneDrive/Documentos/GitHub/proyectoSecuencial/Enfermedad.cpp" "CMakeFiles/Proyecto2.dir/Enfermedad.cpp.obj" "gcc" "CMakeFiles/Proyecto2.dir/Enfermedad.cpp.obj.d"
+  "C:/Users/danid/OneDrive/Documentos/GitHub/proyectoSecuencial/Iterador.cpp" "CMakeFiles/Proyecto2.dir/Iterador.cpp.obj" "gcc" "CMakeFiles/Proyecto2.dir/Iterador.cpp.obj.d"
+  "C:/Users/danid/OneDrive/Documentos/GitHub/proyectoSecuencial/IteradorLista.cpp" "CMakeFiles/Proyecto2.dir/IteradorLista.cpp.obj" "gcc" "CMakeFiles/Proyecto2.dir/IteradorLista.cpp.obj.d"
+  "C:/Users/danid/OneDrive/Documentos/GitHub/proyectoSecuencial/Lista.cpp" "CMakeFiles/Proyecto2.dir/Lista.cpp.obj" "gcc" "CMakeFiles/Proyecto2.dir/Lista.cpp.obj.d"
+  "C:/Users/danid/OneDrive/Documentos/GitHub/proyectoSecuencial/MenuAnalisis.cpp" "CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.obj" "gcc" "CMakeFiles/Proyecto2.dir/MenuAnalisis.cpp.obj.d"
+  "C:/Users/danid/OneDrive/Documentos/GitHub/proyectoSecuencial/Nodo.cpp" "CMakeFiles/Proyecto2.dir/Nodo.cpp.obj" "gcc" "CMakeFiles/Proyecto2.dir/Nodo.cpp.obj.d"
+  "C:/Users/danid/OneDrive/Documentos/GitHub/proyectoSecuencial/Paciente.cpp" "CMakeFiles/Proyecto2.dir/Paciente.cpp.obj" "gcc" "CMakeFiles/Proyecto2.dir/Paciente.cpp.obj.d"
+  "C:/Users/danid/OneDrive/Documentos/GitHub/proyectoSecuencial/dist/jsoncpp.cpp" "CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.obj" "gcc" "CMakeFiles/Proyecto2.dir/dist/jsoncpp.cpp.obj.d"
+  "C:/Users/danid/OneDrive/Documentos/GitHub/proyectoSecuencial/main.cpp" "CMakeFiles/Proyecto2.dir/main.cpp.obj" "gcc" "CMakeFiles/Proyecto2.dir/main.cpp.obj.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
