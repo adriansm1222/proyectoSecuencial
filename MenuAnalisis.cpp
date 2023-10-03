@@ -102,7 +102,12 @@ void MenuAnalisis::subMenuAnalisis() {
                 break;
             }
             case 2: {
-                cout << contListas->analisis2();
+                auto inicio = std::chrono::high_resolution_clock::now();
+                string s = contListas->analisis2();
+                auto fin = std::chrono::high_resolution_clock::now();
+                std::chrono::duration<double> duracion = fin - inicio;
+                double seconds = duracion.count();
+                cout<< "Tiempo: " + to_string(seconds) << endl;
                 cout << "Presione ENTER para continuar" << endl;
                 cin.get();
                 cin.get();
@@ -110,7 +115,12 @@ void MenuAnalisis::subMenuAnalisis() {
                 break;
             }
             case 3: {
-                cout << contListas->analisis3();
+                auto inicio = std::chrono::high_resolution_clock::now();
+                string s = contListas->analisis3();
+                auto fin = std::chrono::high_resolution_clock::now();
+                std::chrono::duration<double> duracion = fin - inicio;
+                double seconds = duracion.count();
+                cout<< "Tiempo: " + to_string(seconds) << endl;
                 cout << "Presione ENTER para continuar" << endl;
                 cin.get();
                 cin.get();
