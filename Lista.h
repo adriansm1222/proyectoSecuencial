@@ -33,6 +33,131 @@ public:
     Lista() {
         raiz = new Nodo<Paciente>;
     }
+    /*
+     * ======================================================
+     * SECCION METODOS NECESARIOS ANALISIS 1
+     * ======================================================
+     * */
+
+    string toStringAnalisis1(){
+        stringstream s;
+        IteradorLista<Paciente> *itP=this->getIterador();
+        while(itP->vacia()){
+            Paciente *tempP=itP->proximo();
+            s<<"Paciente: "<<endl;
+            s<<tempP->toString();
+            s<<"Enfermedades detectadas: "<<endl;
+            for(int i = 0; i<tempP->getLEnfermedades()->size();i++){
+                Enfermedad tempE = tempP->getLEnfermedades()->at(i);
+                s<<"Enfermedad "<<tempE.getNombre()<<" detectada"<<endl;
+            }
+            s<<"-------------------------------------------------------------------------"<<endl;
+        }
+        return s.str();
+    }
+
+    /*
+     * ======================================================
+     * SECCION METODOS NECESARIOS PARA EL ANALISIS 2
+     * */
+    string toStringAnalisis2(){
+        stringstream s;
+        IteradorLista<Paciente> *iter = this -> getIterador();
+        if(listaVacia()){
+            s<<"Lista vacia"<<endl;
+        }else {
+            while(iter->vacia()){
+                Paciente *aux=iter->proximo();
+                s << aux->toString();
+                s << "Porcentaje Base A: " << setprecision(4) << to_string(aux->getPorcentajeA()) << "%"
+                  << endl;
+                s << "Porcentaje Base T: " << setprecision(4) << to_string(aux->getPorcentajeT()) << "%"
+                  << endl;
+                s << "Porcentaje Base G: " << setprecision(4) <<  to_string(aux->getPorcentajeG()) << "%"
+                  << endl;
+                s << "Porcentaje Base C: " << setprecision(4) << to_string(aux->getPorcentajeC()) << "%"
+                  << endl;
+                s<<"-------------------------------------------------------------------------"<<endl;
+            }
+        }
+        return s.str();
+    }
+
+    float porcentajeBase(char base, string adn){
+        float cont=0;
+        for(int i=0; i<adn.length()-1; i++){
+            if(base==adn[i]){
+                cont++;
+            }
+        }
+        return (cont/adn.length())*100;
+    }
+
+    void basesPorcentaje(){
+        char bases[4]={'A', 'T', 'G', 'C'};
+        IteradorLista<Paciente> *iter = this -> getIterador();
+        if(listaVacia()){
+            return;
+        }else {
+            while(iter->vacia()){
+                Paciente *aux=iter->proximo();
+                aux->setPorcentajeA(porcentajeBase(bases[0], aux->getAdn()));
+                aux->setPorcentajeC(porcentajeBase(bases[3], aux->getAdn()));
+                aux->setPorcentajeG(porcentajeBase(bases[2], aux->getAdn()));
+                aux->setPorcentajeT(porcentajeBase(bases[1], aux->getAdn()));
+            }
+        }
+    }
+
+    /*
+     * ======================================================
+     * SECCION CARGA DE PACIENTES
+     * ======================================================
+     * */
+    void cargarPacientes(){
+        ifstream archivo("CadenaADN.csv" ,ios::out);
+        char delim=';';
+        string linea;
+        string nombre, id, cadADN;
+        if(archivo.is_open()) {
+            while (getline(archivo, linea)) {
+            stringstream s(linea);
+            getline(s, nombre, delim);
+            getline(s, id, delim);
+            getline(s, cadADN, delim);
+            Paciente *nPaciente = new Paciente(nombre, id, cadADN, 0);
+            ingresar(nPaciente);
+            }
+            archivo.close();
+        }else throw 2;
+    }
+
+    /*
+     * ======================================================
+     * SECCION METODOS BASICOS DE LA LISTA DE PACIENTES
+     * ======================================================
+     */
+    void ingresar(Paciente *dato) {
+        Nodo<Paciente> *nodoNuevo = new Nodo<Paciente>;
+        nodoNuevo->setDato(dato);
+        nodoNuevo->setSiguiente(raiz->getSiguiente());
+        raiz->setSiguiente(nodoNuevo);
+    }
+
+    bool listaVacia(){
+        if(raiz->getSiguiente()==nullptr){
+            return true;
+        }
+        return false;
+    }
+
+    IteradorLista<Paciente> *getIterador() {
+        return new IteradorLista<Paciente>(primerNodo());
+    }
+
+    Nodo<Paciente> *primerNodo(){
+        return raiz->getSiguiente();
+    }
 
     virtual ~Lista() {
         Nodo<Paciente> *temp;
@@ -54,7 +179,7 @@ public:
 
     string toString() {
         stringstream s;
-        Nodo<Paciente> *temp = new Nodo<Paciente>;
+        auto *temp = new Nodo<Paciente>;
         if (listaVacia()) {
             s << "Lista vacia" << endl;
         } else {
@@ -66,139 +191,6 @@ public:
         }
         return s.str();
     }
-
-    string toStringAnalisis1(){
-        stringstream s;
-        IteradorLista<Paciente> *itP=this->getIterador();
-        while(itP->vacia()){
-            Paciente *tempP=itP->proximo();
-            s<<"Paciente: "<<endl;
-            s<<tempP->toString();
-            s<<"Enfermedades detectadas: "<<endl;
-            for(int i = 0; i<tempP->getLEnfermedades()->size();i++){
-                Enfermedad tempE = tempP->getLEnfermedades()->at(i);
-                s<<"Enfermedad "<<tempE.getNombre()<<" detectada"<<endl;
-            }
-            s<<"-------------------------------------------------------------------------"<<endl;
-        }
-        return s.str();
-    }
-
-    void ingresar(Paciente *dato) {
-        Nodo<Paciente> *nodoNuevo = new Nodo<Paciente>;
-        nodoNuevo->setDato(dato);
-        nodoNuevo->setSiguiente(raiz->getSiguiente());
-        raiz->setSiguiente(nodoNuevo);
-    }
-
-    bool listaVacia(){
-        if(raiz->getSiguiente()==nullptr){
-            return true;
-        }
-        return false;
-    }
-
-    void cargarPacientes(){
-        ifstream archivo("CadenaADN.csv" ,ios::out);
-        char delim=';';
-        string linea;
-        string nombre, id, cadADN;
-        if(archivo.is_open()) {
-            while (getline(archivo, linea)) {
-            stringstream s(linea);
-            getline(s, nombre, delim);
-            getline(s, id, delim);
-            getline(s, cadADN, delim);
-            Paciente *nPaciente = new Paciente(nombre, id, cadADN, 0);
-            ingresar(nPaciente);
-            }
-            archivo.close();
-        }else throw 2;
-    }
-
-    float porcentajeBase(char base, string adn){
-        float cont=0;
-        for(int i=0; i<adn.length()-1; i++){
-            if(base==adn[i]){
-                cont++;
-            }
-        }
-        return (cont/adn.length())*100;
-    }
-
-    string basesPorcentaje(){
-        stringstream s;
-        char bases[4]={'A', 'T', 'G', 'C'};
-        IteradorLista<Paciente> *iter = getIterador();
-        if(listaVacia()){
-            s<<"Lista vacia"<<endl;
-        }else {
-            while(iter->vacia()){
-                Paciente *aux=iter->proximo();
-                s << aux->toString();
-                s << "Porcentaje Base A: " << setprecision(4) << porcentajeBase(bases[0], aux->getAdn()) << "%"
-                  << endl;
-                s << "Porcentaje Base T: " << setprecision(4) << porcentajeBase(bases[1], aux->getAdn()) << "%"
-                  << endl;
-                s << "Porcentaje Base G: " << setprecision(4) << porcentajeBase(bases[2], aux->getAdn()) << "%"
-                  << endl;
-                s << "Porcentaje Base C: " << setprecision(4) << porcentajeBase(bases[3], aux->getAdn()) << "%"
-                  << endl;
-                s<<"-------------------------------------------------------------------------"<<endl;
-            }
-        }
-        return s.str();
-    }
-
-    void ordenar(){
-        Nodo<Paciente> *aux1;
-        Nodo<Paciente> *aux2;
-        Paciente *auxPaciente;
-        if(listaVacia()){
-            return;
-        }else {
-            while(primerNodo()->enfermedadesDato()!=maximoEnfermedades()) {
-                aux1 = primerNodo();
-                while (aux1->getSiguiente() != nullptr) {
-                    aux2 = aux1->getSiguiente();
-                    while (aux2 != nullptr) {
-                        if (aux1->enfermedadesDato() < aux2->enfermedadesDato()) {
-                            auxPaciente = aux2->getDato();
-                            aux2->setDato(aux1->getDato());
-                            aux1->setDato(auxPaciente);
-                        }
-                        aux2 = aux2->getSiguiente();
-                    }
-                    aux1 = aux1->getSiguiente();
-                }
-            }
-        }
-    }
-
-    int maximoEnfermedades() {
-        int max = 0;
-        IteradorLista<Paciente> *iter = getIterador();
-        if (listaVacia()) {
-            return max;
-        } else {
-            while (iter->vacia()) {
-                Paciente *aux = iter->proximo();
-                if(aux->getEnfermedades()>max){
-                    max=aux->getEnfermedades();
-                }
-            }
-        }
-        return max;
-    }
-
-    IteradorLista<Paciente> *getIterador() {
-        return new IteradorLista<Paciente>(primerNodo());
-    }
-
-    Nodo<Paciente> *primerNodo(){
-        return raiz->getSiguiente();
-    }
-
 };
 
 template<>

@@ -16,9 +16,10 @@ private:
     string id;
     string cadADN;
     int enfermedades;
+    float porcentajeA, porcentajeC, porcentajeG, porcentajeT, probabilidadUCI;
     vector<Enfermedad> *lEnfermedades;
 public:
-    Paciente(string nombre="", string id="", string adn="", int enfermedades=0);
+    Paciente(string nombre="", string id="", string adn="", int enfermedades=0, float porcentajeA = 0.0, float porcentajeC = 0.0, float porcentajeG = 0.0, float porcentajeT = 0.0);
     const string &getNombre() const;
     void setNombre(const string &nombre);
     const string &getId() const;
@@ -32,6 +33,30 @@ public:
     vector<Enfermedad> *getLEnfermedades() const;
 
     void setLEnfermedades(vector<Enfermedad> *lEnfermedades);
+
+    float getPorcentajeA() const;
+
+    void setPorcentajeA(float porcentajeA);
+
+    float getPorcentajeC() const;
+
+    void setPorcentajeC(float porcentajeC);
+
+    float getPorcentajeG() const;
+
+    void setPorcentajeG(float porcentajeG);
+
+    float getPorcentajeT() const;
+
+    void setPorcentajeT(float porcentajeT);
+
+    const string &getCadAdn() const;
+
+    void setCadAdn(const string &cadAdn);
+
+    float getProbabilidadUci() const;
+
+    void setProbabilidadUci(float probabilidadUci);
 
 
 };

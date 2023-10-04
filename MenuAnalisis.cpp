@@ -19,8 +19,7 @@ void MenuAnalisis::menuPrincipal() {
         cout<<"SEA BIENVENIDO AL MENU PRINCIPAL!"<<endl;
         cout<<"OPCION 1: Carga de datos"<<endl;
         cout<<"OPCION 2: Analisis de datos "<<endl;
-        cout<<"OPCION 3: Generar reporte"<<endl;
-        cout<<"OPCION 4: Salir"<<endl;
+        cout<<"OPCION 3: Salir"<<endl;
         cin>>opcionM;
         if(cin.fail()){
             cout<<"Utilice numeros unicamente para seleccionar una opcion"<<endl;
@@ -47,14 +46,6 @@ void MenuAnalisis::menuPrincipal() {
                 break;
             }
             case 3:{
-                contListas->generarReporte();
-                cout<<"Reporte generado con exito"<<endl;
-                cout<<"Presione ENTER para continuar"<<endl;
-                cin.get();
-                limpiaMenu();
-                break;
-            }
-            case 4:{
                 cout<<"GRACIAS POR UTILIZAR NUESTROS SERVICIOS! "<<endl;
                 limpiaMenu();
                 break;
@@ -103,11 +94,11 @@ void MenuAnalisis::subMenuAnalisis() {
             }
             case 2: {
                 auto inicio = std::chrono::high_resolution_clock::now();
-                string s = contListas->analisis2();
+                contListas->analisis2();
                 auto fin = std::chrono::high_resolution_clock::now();
                 std::chrono::duration<double> duracion = fin - inicio;
                 double seconds = duracion.count();
-                cout<< "Tiempo: " + to_string(seconds) << endl;
+                contListas->imprimirAnalisis2(to_string(seconds));
                 cout << "Presione ENTER para continuar" << endl;
                 cin.get();
                 cin.get();

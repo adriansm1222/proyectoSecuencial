@@ -24,16 +24,15 @@ public:
     ContenedoraListas(Lista<Enfermedad> *lEnfermedades=new Lista<Enfermedad>, Lista<Paciente> *lPacientes=new Lista<Paciente>);
     virtual ~ContenedoraListas();
     void analisis1();
-    string analisis2();
+    void analisis2();
     string analisis3();
-    string busquedaEnfermedad(Paciente *p, Enfermedad *e);
-    void setNumeroEnfermedades();
     Lista<Enfermedad> *getLEnfermedades() const;
     Lista<Paciente> *getLPacientes() const;
     void cargaDatos();
     void generarReporte();
     bool nombreEnfermedad(Paciente *p, Enfermedad *e);
     void imprimirAnalisis1(string tiempo);
+    void imprimirAnalisis2(string tiempo);
 };
 
 
