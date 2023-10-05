@@ -108,6 +108,38 @@ public:
             }
         }
     }
+    /*
+     * ======================================================
+     * SECCION METODOS NECESARIOS PARA EL ANALISIS 3
+     * */
+    string toStringAnalisis3(){
+        stringstream s;
+        IteradorLista<Paciente> *iter = this -> getIterador();
+        if(listaVacia()){
+            s<<"Lista vacia"<<endl;
+        }else {
+            while(iter->vacia()){
+                Paciente *aux=iter->proximo();
+                if(aux->getEnfermedades()>=2) {
+                    s << "Paciente: " << endl;
+                    s << aux->toString();
+                    s << "Enfermedades detectadas: " << endl;
+                    for (const auto & i : *aux->getLEnfermedades()) {
+                        s << i.getNombre() + " detectada."<<endl;
+                    }
+                    if(aux->getEnfermedades()==2){
+                        s<<"40% de probabilidades de ocupar UCI"<<endl;
+                        s<< "-------------------------------------------------------------------------" << endl;
+                    }
+                    if(aux->getEnfermedades()>=3){
+                        s<<"70% de probabilidades de ocupar UCI"<<endl;
+                        s<< "-------------------------------------------------------------------------" << endl;
+                    }
+                }
+            }
+        }
+        return s.str();
+    }
 
     /*
      * ======================================================

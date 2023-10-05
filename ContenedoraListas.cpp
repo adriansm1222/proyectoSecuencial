@@ -57,6 +57,7 @@ void ContenedoraListas::analisis1() {
             }
         }
         tempP->setLEnfermedades(vEnfermedades);
+        tempP->setEnfermedades(vEnfermedades->size());
     }
 }
 
@@ -107,8 +108,31 @@ void ContenedoraListas::imprimirAnalisis2(string tiempo){
  * SECCION ANALISIS 3
  * ====================================================
  * */
-string ContenedoraListas::analisis3() {
-    return "analisis3";
+void ContenedoraListas::analisis3() {
+    if (getLPacientes()->listaVacia() && getLEnfermedades()->listaVacia()) throw 1;
+    IteradorLista<Paciente> *itP=getLPacientes()->getIterador();
+    IteradorLista<Enfermedad> *itE=getLEnfermedades()->getIterador();
+    while(itP->vacia()){
+        itE->volverInicio(getLEnfermedades()->primerNodo());
+        Paciente *tempP=itP->proximo();
+        if(tempP->getEnfermedades()>=2) {
+            if(tempP->getEnfermedades()==2){
+                tempP->setProbabilidadUci(40.0);
+            }
+            if(tempP->getEnfermedades()>=3){
+                tempP->setProbabilidadUci(70.0);
+            }
+        }
+    }
+}
+
+void ContenedoraListas::imprimirAnalisis3(string tiempo) {
+    stringstream s;
+    s << getLPacientes()->toStringAnalisis3();
+    s << tiempo;
+    ofstream archivo("Analisis3.txt", std::ios::trunc);
+    archivo << s.str();
+    archivo.close();
 }
 
 /*

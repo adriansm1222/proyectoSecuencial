@@ -25,7 +25,7 @@ public:
     virtual ~ContenedoraListas();
     void analisis1();
     void analisis2();
-    string analisis3();
+    void analisis3();
     Lista<Enfermedad> *getLEnfermedades() const;
     Lista<Paciente> *getLPacientes() const;
     void cargaDatos();
@@ -33,6 +33,7 @@ public:
     bool nombreEnfermedad(Paciente *p, Enfermedad *e);
     void imprimirAnalisis1(string tiempo);
     void imprimirAnalisis2(string tiempo);
+    void imprimirAnalisis3(string tiempo);
 };
 
 

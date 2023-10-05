@@ -107,11 +107,11 @@ void MenuAnalisis::subMenuAnalisis() {
             }
             case 3: {
                 auto inicio = std::chrono::high_resolution_clock::now();
-                string s = contListas->analisis3();
+                contListas->analisis3();
                 auto fin = std::chrono::high_resolution_clock::now();
                 std::chrono::duration<double> duracion = fin - inicio;
                 double seconds = duracion.count();
-                cout<< "Tiempo: " + to_string(seconds) << endl;
+                contListas->imprimirAnalisis3(to_string(seconds));
                 cout << "Presione ENTER para continuar" << endl;
                 cin.get();
                 cin.get();
