@@ -110,6 +110,7 @@ void ContenedoraListas::imprimirAnalisis2(string tiempo){
  * */
 void ContenedoraListas::analisis3() {
     if (getLPacientes()->listaVacia() && getLEnfermedades()->listaVacia()) throw 1;
+    getLPacientes()->ordenar();
     IteradorLista<Paciente> *itP=getLPacientes()->getIterador();
     IteradorLista<Enfermedad> *itE=getLEnfermedades()->getIterador();
     while(itP->vacia()){

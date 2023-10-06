@@ -141,6 +141,47 @@ public:
         return s.str();
     }
 
+    int maximoEnfermedades() {
+        int max = 0;
+        IteradorLista<Paciente> *iter = getIterador();
+        if (listaVacia()) {
+            return max;
+        } else {
+            while (iter->vacia()) {
+                Paciente *aux = iter->proximo();
+                if(aux->getEnfermedades()>max){
+                    max=aux->getEnfermedades();
+                }
+            }
+        }
+        return max;
+    }
+
+    void ordenar(){
+        Nodo<Paciente> *aux1;
+        Nodo<Paciente> *aux2;
+        Paciente *auxPaciente;
+        if(listaVacia()){
+            return;
+        }else {
+            while(primerNodo()->enfermedadesDato()!=maximoEnfermedades()) {
+                aux1 = primerNodo();
+                while (aux1->getSiguiente() != nullptr) {
+                    aux2 = aux1->getSiguiente();
+                    while (aux2 != nullptr) {
+                        if (aux1->enfermedadesDato() < aux2->enfermedadesDato()) {
+                            auxPaciente = aux2->getDato();
+                            aux2->setDato(aux1->getDato());
+                            aux1->setDato(auxPaciente);
+                        }
+                        aux2 = aux2->getSiguiente();
+                    }
+                    aux1 = aux1->getSiguiente();
+                }
+            }
+        }
+    }
+
     /*
      * ======================================================
      * SECCION CARGA DE PACIENTES

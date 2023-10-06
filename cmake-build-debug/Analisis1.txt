@@ -8448,4 +8448,4 @@ Enfermedad Varicocele detectada
 Enfermedad Neurofibromatosis detectada
 Enfermedad Microcefalia  detectada
 -------------------------------------------------------------------------
-0.071611
+0.059484
